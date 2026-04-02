@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -190,6 +191,43 @@ document.getElementById('loader').style.display='none';
 <br>
 <button class="btn" onclick="alert('Our team will contact you shortly!')">Request Service</button>
 </div>
+</section>
+
+<!-- Stats Section -->
+<section class="section">
+<h2>Our Achievements</h2>
+<div class="services">
+<div class="card"><h3>100+</h3><p>Projects Completed</p></div>
+<div class="card"><h3>50+</h3><p>Happy Clients</p></div>
+<div class="card"><h3>24/7</h3><p>Support Available</p></div>
+<div class="card"><h3>99%</h3><p>Uptime Guarantee</p></div>
+</div>
+</section>
+
+<!-- Pricing Section -->
+<section class="section">
+<h2>Our Packages</h2>
+<div class="services">
+<div class="card"><h3>Basic</h3><p>For Small Business</p><p>IT Support + Setup</p></div>
+<div class="card"><h3>Standard</h3><p>For Growing Business</p><p>Networking + Security</p></div>
+<div class="card"><h3>Premium</h3><p>Enterprise Solutions</p><p>Full IT Infrastructure</p></div>
+</div>
+</section>
+
+<!-- Testimonials -->
+<section class="section">
+<h2>Client Feedback</h2>
+<div class="services">
+<div class="card"><p>"Excellent IT services and fast response!"</p><h4>- Business Client</h4></div>
+<div class="card"><p>"Highly professional team and reliable solutions."</p><h4>- Corporate Client</h4></div>
+<div class="card"><p>"Best IT support company in Pakistan."</p><h4>- Startup Owner</h4></div>
+</div>
+</section>
+
+<!-- Google Map -->
+<section class="section">
+<h2>Our Location</h2>
+<iframe src="https://maps.google.com/maps?q=Lahore&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="300" style="border-radius:10px;border:none;"></iframe>
 </section>
 
 <footer>
