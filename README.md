@@ -1,20 +1,21 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>TechSphere Solutions</title>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 <style>
-body{margin:0;font-family:'Poppins',sans-serif;background:#0b1c2c;color:#fff}
+body{margin:0;font-family:'Poppins',sans-serif;background:linear-gradient(135deg,#020c1b,#0b1c2c,#021421);color:#fff}
 header{background:linear-gradient(90deg,#06121f,#0e3b5c);padding:20px;text-align:center}
-header h1{margin:0;font-size:34px;color:#00c3ff}
-nav{display:flex;justify-content:center;background:#09243a;padding:12px}
+header h1{margin:0;font-size:36px;color:#00c3ff;font-family:'Orbitron',sans-serif}
+nav{display:flex;justify-content:center;background:#09243a;padding:12px;position:sticky;top:0;z-index:1000}
 nav a{color:#fff;margin:0 20px;text-decoration:none;font-weight:600}
 nav a:hover{color:#00c3ff}
 .hero{background:url('/mnt/data/Gemini_Generated_Image_4fghit4fghit4fgh.png') no-repeat center/cover;height:95vh;display:flex;align-items:center;justify-content:center;text-align:center}
 .hero h2{background:rgba(0,0,0,0.65);padding:25px;border-radius:12px;font-size:32px}
 .section{padding:60px 20px;text-align:center}
-.section h2{color:#00c3ff;margin-bottom:30px}
+.section h2{color:#00c3ff;margin-bottom:30px;font-family:'Orbitron',sans-serif}
 .services{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:25px}
 .card{background:#112f47;padding:25px;border-radius:12px;transition:0.3s}
 .card:hover{background:#0e3b5c;transform:translateY(-8px)}
@@ -25,19 +26,11 @@ footer{background:#06121f;padding:20px;text-align:center;margin-top:40px}
 .btn:hover{background:#00a0cc}
 
 /* WhatsApp Button */
-.whatsapp{
-position:fixed;
-bottom:20px;
-right:20px;
-background:#25D366;
-color:#fff;
-border-radius:50px;
-padding:15px 20px;
-font-size:18px;
-text-decoration:none;
-box-shadow:0 4px 10px rgba(0,0,0,0.3);
-}
+.whatsapp{position:fixed;bottom:20px;right:20px;background:#25D366;color:#fff;border-radius:50px;padding:15px 20px;font-size:18px;text-decoration:none;box-shadow:0 4px 10px rgba(0,0,0,0.3)}
 .whatsapp:hover{background:#1ebe5d}
+
+/* Smooth Scroll */
+html{scroll-behavior:smooth}
 </style>
 </head>
 <body>
@@ -84,13 +77,9 @@ box-shadow:0 4px 10px rgba(0,0,0,0.3);
 <section class="section" id="about">
 <h2>About TechSphere</h2>
 <div class="about-box">
-<p>TechSphere Solutions is a leading IT services provider based in Lahore, delivering advanced technology solutions to businesses and individuals across Pakistan. Our company is built on a foundation of innovation, reliability, and customer satisfaction.</p>
-
-<p>We specialize in designing and managing complete IT infrastructures including server rooms, enterprise networks, cybersecurity systems, and cloud environments. From small businesses to large organizations, we provide customized solutions that ensure performance, security, and scalability.</p>
-
-<p>Our team of certified IT professionals brings expertise in modern technologies such as cloud computing, virtualization, VoIP systems, and enterprise-grade networking. We focus on delivering cost-effective solutions without compromising on quality.</p>
-
-<p>At TechSphere Solutions, we believe in long-term partnerships. Our 24/7 support ensures that your business operations run smoothly with minimal downtime. Whether it's troubleshooting, installation, or full IT transformation — we are your trusted technology partner.</p>
+<p>TechSphere Solutions is a leading IT services provider based in Lahore, delivering advanced technology solutions to businesses and individuals across Pakistan. Our company is built on innovation, reliability, and customer satisfaction.</p>
+<p>We specialize in complete IT infrastructures including server rooms, enterprise networking, cybersecurity, and cloud systems. We help businesses grow with secure and scalable technology.</p>
+<p>Our mission is to provide high-quality, cost-effective IT solutions with 24/7 support and long-term partnerships.</p>
 </div>
 </section>
 
@@ -108,8 +97,7 @@ box-shadow:0 4px 10px rgba(0,0,0,0.3);
 <p>© 2026 TechSphere Solutions | All Rights Reserved</p>
 </footer>
 
-<!-- WhatsApp Live Chat -->
-<a class="whatsapp" href="https://wa.me/923064924947" target="_blank">💬 Chat on WhatsApp</a>
+<a class="whatsapp" href="https://wa.me/923064924947" target="_blank">💬 Chat</a>
 
 </body>
 </html>
